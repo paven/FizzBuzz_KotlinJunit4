@@ -15,10 +15,16 @@ Green - all test
 
 Refactor - Make it do the same thing but somewhat better.
 
-Driver - Daniel
-Navigator - Jegan
-Next -  Arun
+Typist/Navigator/Next/Ensamble
+Next - Asokan
+Patrik
+Aravindh
+* Daniel
+* Jegan
+Arun
 
+//Ok patrick!
+//Webex:https://ford.webex.com/meet/PGUSTA49 <-- sound and video
 
 
 Kata - https://www.sammancoaching.org/kata_descriptions/fizzbuzz.html
@@ -26,7 +32,10 @@ Kata - https://www.sammancoaching.org/kata_descriptions/fizzbuzz.html
 
 class FizzBuzz {
 
-    fun printNumbers(numberOfLines: Int): Boolean {
-        return false
+    fun printLineNumber(number: Int): String {
+        return if (3 == number) "Fizz"
+        else number.toString()
     }
+
+
 }
