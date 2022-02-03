@@ -15,13 +15,14 @@ Green - all test
 
 Refactor - Make it do the same thing but somewhat better.
 
+Tardigrades:
 Typist/Navigator/Next/Ensamble
-Next - Asokan
+Next - Aravindh
+Asokan
 Patrik
-Aravindh
 * Daniel
 * Jegan
-Arun
+* Arun
 
 //Ok patrick!
 //Webex:https://ford.webex.com/meet/PGUSTA49 <-- sound and video
@@ -33,7 +34,9 @@ Kata - https://www.sammancoaching.org/kata_descriptions/fizzbuzz.html
 class FizzBuzz {
 
     fun printLineNumber(number: Int): String {
-        return if (3 == number) "Fizz"
+        return if (15 == number) "FizzBuzz"
+        else if (number % 3 == 0) "Fizz"
+        else if (number % 5 == 0) "Buzz"
         else number.toString()
     }
 
